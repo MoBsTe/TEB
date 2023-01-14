@@ -10,3 +10,11 @@ const button = document.querySelector('button');                 // нахожд
 button.addEventListener('click', addDiv);                       // добавление собятия на кнопку 
 
 let divCounter = 0;
+
+
+
+// const showScroll = function () {
+//     document.classList.add;
+// }
+
+// window.addEventListener("scroll", showScroll)

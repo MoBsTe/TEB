@@ -1479,7 +1479,7 @@ while(warunek){
 
 //     console.log("działa");
 
-// } while (money > 200) 
+// } while (money > 200)
 
 
 
@@ -1742,117 +1742,117 @@ while(warunek){
 // Pobranie danych do nodeList:
 // const p = document.querySelectorAll('p');
 // Zamiana na tablioce [...document.querySelectorAll('p')]
-console.log(p);
+// console.log(p);
 
 // Pobieranie atrybutów
 
-const h2 = document.querySelector('h2');
-console.log(h2);
-console.log(h2.getAttribute('class'));
-console.log(h2.getAttribute('data-color'));
-console.log(h2.getAttribute('id'));
+// const h2 = document.querySelector('h2');
+// console.log(h2);
+// console.log(h2.getAttribute('class'));
+// console.log(h2.getAttribute('data-color'));
+// console.log(h2.getAttribute('id'));
 
 
 // Zmiana zawartości:
-h2.textContent = 'Test h2 z JS <p>test</p>';
-h2.innerHTML = 'Test h2 z innerHTML <p>test</p>'
+// h2.textContent = 'Test h2 z JS <p>test</p>';
+// h2.innerHTML = 'Test h2 z innerHTML <p>test</p>'
 
 // Modyfikacja elementów DOM
 
-const firstLi = document.querySelector('li:first-child');
+// const firstLi = document.querySelector('li:first-child');
 
 
-firstLi.textContent = 'Nowa zawartość tekstowa';
+// firstLi.textContent = 'Nowa zawartość tekstowa';
 
-firstLi.style.fontSize = '30px';
-// background-color
-firstLi.style.backgroundColor = '#ccc';
-firstLi.style.letterSpacing = '5px';
-
-
-// Dodawanie, odejmowanie i przełączanie klas
-firstLi.classList.add('space');
-firstLi.classList.remove('space');
+// firstLi.style.fontSize = '30px';
+// // background-color
+// // firstLi.style.backgroundColor = '#ccc';
+// firstLi.style.letterSpacing = '5px';
 
 
-// Nadpisaywaści zawartść atrybutów
-
-firstLi.className = "one two";
-firstLi.id = "";
-
-
-// Ustawienie zawartości atrybutów
-firstLi.setAttribute('title', 'Uwaga, Ważne!')
-firstLi.setAttribute('class', 'sizeX')
+// // Dodawanie, odejmowanie i przełączanie klas
+// firstLi.classList.add('space');
+// firstLi.classList.remove('space');
 
 
-// Modyfikowanie wielu elementów:
-const liItems = [...document.getElementsByTagName('li')];
+// // Nadpisaywaści zawartść atrybutów
 
-console.log(liItems);
-
-// liItems.style.fontSize = "40px"; 
-
-liItems.forEach(function (items) {
-    items.style.textDecoration = "underline";
-    items.style.fontSize = "40px";
-    items.classList.add('red');
-})
-
-// Nasłuchiwanie i obsługa zdarzeń
-
-window.addEventListener('dblclick', function () {
-    console.log('podwójne kliknięcie');
-})
+// firstLi.className = "one two";
+// firstLi.id = "";
 
 
-document.body.addEventListener('click', () => console.log("kliknięcie"))
+// // Ustawienie zawartości atrybutów
+// firstLi.setAttribute('title', 'Uwaga, Ważne!')
+// firstLi.setAttribute('class', 'sizeX')
 
 
-let size = 0;
+// // Modyfikowanie wielu elementów:
+// const liItems = [...document.getElementsByTagName('li')];
 
-const showScroll = function () {
-    size++;
-    document.querySelector('li').style.fontSize = size + "px";
-}
+// console.log(liItems);
 
-window.addEventListener("scroll", showScroll)
+// // liItems.style.fontSize = "40px";
 
+// liItems.forEach(function (items) {
+//     items.style.textDecoration = "underline";
+//     items.style.fontSize = "40px";
+//     items.classList.add('red');
+// })
 
+// // Nasłuchiwanie i obsługa zdarzeń
 
-// document.querySelector('h1').addEventListener('mousemove',function(){
-// this.textContent += "+";
+// window.addEventListener('dblclick', function () {
+//     console.log('podwójne kliknięcie');
 // })
 
 
-const h1 = document.querySelector('h1');
-
-const addText = function () {
-    this.textContent += " 🙂 ";
-    h1.classList.toggle("red");
-}
-h1.addEventListener('click', addText);
+// document.body.addEventListener('click', () => console.log("kliknięcie"))
 
 
-// UStawienie nasłuchiwania na wielu elementach
+// let size = 0;
 
-const addClassRed = function () {
-    this.classList.add('red');
-}
+// const showScroll = function () {
+//     size++;
+//     document.querySelector('li').style.fontSize = size + "px";
+// }
 
-const items = document.querySelectorAll('li');
-
-items.forEach((item) => item.addEventListener('click', addClassRed))
-
-
-// TWORZENIE I DODAWNAIE ELEMENTÓW DO STRONY
-const divElement = document.createElement('div');
-divElement.textContent = "Ostatni DIV";
-divElement.style.backgroundColor = "red";
-document.body.appendChild(divElement);
+// window.addEventListener("scroll", showScroll)
 
 
-const ul = document.querySelector('ul');
-const liElement = document.createElement('li');
-liElement.textContent = "Ostatni li";
-ul.appendChild(liElement);
+
+// // document.querySelector('h1').addEventListener('mousemove',function(){
+// // this.textContent += "+";
+// // })
+
+
+// const h1 = document.querySelector('h1');
+
+// const addText = function () {
+//     this.textContent += " 🙂 ";
+//     h1.classList.toggle("red");
+// }
+// h1.addEventListener('click', addText);
+
+
+// // UStawienie nasłuchiwania na wielu elementach
+
+// const addClassRed = function () {
+//     this.classList.add('red');
+// }
+
+// const items = document.querySelectorAll('li');
+
+// items.forEach((item) => item.addEventListener('click', addClassRed))
+
+
+// // TWORZENIE I DODAWNAIE ELEMENTÓW DO STRONY
+// const divElement = document.createElement('div');
+// divElement.textContent = "Ostatni DIV";
+// divElement.style.backgroundColor = "red";
+// document.body.appendChild(divElement);
+
+
+// const ul = document.querySelector('ul');
+// const liElement = document.createElement('li');
+// liElement.textContent = "Ostatni li";
+// ul.appendChild(liElement);
