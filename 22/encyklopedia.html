@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- Kodowanie np. polskich znaków -->
+    <meta charset=UTF-8">
+    <!-- Informacja o najnowszej wersji stromy -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- tytuł strony -->
+    <title>Przykładowy tytuł strrony</title>
+    <!-- Opis strony  -->
+    <meta name="description" content="Najpersza strona">
+    <!-- info o autorze -->
+    <meta name="description" content="Ja">
+    <!-- Słowa kluczowe -->
+    <meta name="description" content="strona internatowa, tanio, dobrze, szybko">
+    <!-- CSS w oddzielnym pliku -->
+    <link rel="stylesheet" href="style.css">
+    <!-- znaczniki stylów CSS -->
+    <style></style>
+    <meta name="description" content="">
+</head>
+
+<body>
+    <!--Przyciski i hipełącza-->
+    <button>Przyciski</button>
+    <a href="#">Przeciski do strony</a>
+    <a href="http://onet.pl">Prezejdz do onet</a>
+    <a href="onas.html">Przejdż do zakładki</a>
+
+    <!-- div, headwer, main, footer, aside,nav-->
+    <!--Wszystki te elementy nie mają stylów czyli są takie same, ale blokowe wieć nie wyświetlają się
+    OBOK SIEBIE-->
+    <div>DIV</div>
+    <header>
+        <p>header</p>
+    </header>
+    <!--część główma strony -->
+    <main>main</main>
+    <!--stopka-->
+    <footer>Stopka</footer>
+    <!--treść poboczna / dodatkowa-->
+    <aside>aside</aside>
+    <nav>Menu</nav>
+
+    <!-- span i inne elementy linowe-->
+    <!--Linowe - pojawiają się obok siedie i można je zagnieżdżać-->
+    <!-- b - pogrubienie bez wartości semantycznej, strong z semantyczną wartością -->
+    <p>Lorem ipsum dolor sit amet, <b>consectetur adipisicing</b> elit. Reprehenderit earum quaerat quas culpa quasi
+        dolorum
+        <strong>dolores ut odit sapiente?</strong> Dolor vel asperiores quod corrupti doloribus nemo expedita molestias
+        rerum assumenda?
+    </p>
+
+
+    <!-- obrazy -->
+    <!-- rozmiary - CSS -->
+    <!-- src - ścieżka do pliku lub link -->
+    <!-- alt - zapis alternatywny - czytany w czytnikach dla niewidomych -->
+    <img src="img/webp.jpg" alt="jakiś obrazek">
+
+    <!-- nawigacja -->
+    <!-- ul - kontener na listę nieuporządkowaną -->
+    <!-- ol- kontener na kistę uprorządkowaną -->
+    <!-- li - element listy -->
+    <nav>
+        <ul>
+            <li><a href="#">Jakiś link</a></li>
+            <li><a href="#">Jakiś link</a></li>
+            <li><a href="#">Jakiś link</a></li>
+            <li><a href="#">Jakiś link</a></li>
+        </ul>
+    </nav>
+
+    <!-- formularze -->
+    <form action="">
+        <input type="text">
+        <input type="password">
+        <p>
+            <label for="name_surname">Podaj imię i nazwisko</label>
+            <input type="text" id="name_surname">
+        </p>
+        <input type="text" placeholder="Wpisz imię i nazwisko" required>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="radio" name="testjeden" id="radio">
+        <input type="radio" name="testjeden" id="radio">
+        <input type="radio" name="testjeden" id="radio">
+        <label for="radio">Sprawdź</label>
+        <br>
+
+        <select name="select_html" id="">
+            <option value="">Wybierz wartość</option>
+            <option value="1">Opcja 1</option>
+            <option value="2">Opcja 2</option>
+            <option value="3">Opcja 3</option>
+        </select>
+        <button>Wyślij</button>
+    </form>
+
+
+
+    <!-- Tabele -->
+    <!-- tr - wiersz tabeli -->
+    <!-- td - kolumna tabeli (zagnieżdżana w tr) -->
+    <table border=1>
+        <tr>
+            <td>Kolumna 1</td>
+            <td>Kolumna 2</td>
+            <td>Kolumna 3</td>
+        </tr>
+        <tr>
+            <td>Kolumna 1</td>
+            <td>Kolumna 2</td>
+        </tr>
+        <tr>
+            <td>Kolumna 1</td>
+        </tr>
+    </table>
+
+    <!--Atrybut-->
+    <!--Klasa pozwala ostylować element w CSS lub pogropować element-->
+    <p class="red"></p>
+
+    <!-- Atrybutom mozna nodać dodatkowe właściwości-->
+
+    <img src="żródło" alt="alternatywny tekst">
+    <a href="link do strony"></a>
+
+    <!-- żle: -->
+    <p id="red"></p>
+    <p id="red"></p>
+
+
+    <!-- Dorze -->
+    <p class="red"></p>
+    <p class="red"></p>
+
+    <!-- Nie wszystkie atrybuty mają wartości np. required -->
+    <input type="email" required>
+
+</body>
+
+</html>

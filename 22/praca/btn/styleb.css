@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: blanchedalmond;
+}
+
+.guruweba_example_form {
+    text-align: justify;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.guruweba_example_caption {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.guruweba_example_infofield {
+    margin-top: 20px;
+}
+
+.name {
+    margin-top: 20px;
+}
+
+.email {
+    margin-top: 20px;
+}
+
+.Wiadomość {
+    margin-top: 20px;
+}

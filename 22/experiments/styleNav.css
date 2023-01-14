@@ -1,0 +1,33 @@
+.header {
+    max-width: 1024px;
+    width: 100px;
+    height: 1000px;
+    display: flex;
+
+}
+
+.container {
+    max-width: 1024px;
+    width: auto;
+    height: 1000px;
+    display: flex;
+
+
+}
+
+.logo img {
+    margin: left 0;
+    width: 150px;
+
+}
+
+.nav {
+    margin-left: 300px;
+    text-decoration: none;
+}
+
+.nav a {
+    text-decoration: none;
+    padding-right: 10px;
+    margin-left: 300px;
+}

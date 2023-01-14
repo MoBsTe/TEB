@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMÓW WIZYTĘ</title>
+    <link rel="stylesheet" href="styleb.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;700&family=Open+Sans:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="form">
+        <form class="guruweba_example_form" name="feedback" method="POST" action="/feedback.php">
+            <div class="guruweba_example_caption">Informacja zwrotna</div>
+            <div class="guruweba_example_infofield">Temat</div>
+            <select name="theme" required="required">
+                <option value="">Opcja </option>
+                <option>Naprawy</option>
+                <option>CZĘŚCI</option>
+                <option>HOLOWANIE</option>
+                <option>Poprawianie liczników</option>
+                <option>Czesc po recyklingu</option>
+                <option>Wynajdowanie usterek</option>
+            </select>
+            <div class="name">Name</div>
+            <input class="name__input" type="text" name="name" required="required">
+            <div class="email">Email</div>
+            <input type="email" name="email" required="required">
+            <div class="Wiadomość">Wiadomość</div>
+            <textarea name="message"></textarea>
+            <input type="submit" name="submit_btn" value="wysłać">
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
